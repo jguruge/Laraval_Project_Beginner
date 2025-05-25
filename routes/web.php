@@ -6,6 +6,11 @@ use App\Http\Controllers\PagesController;
 Route::get('/Login', [PagesController::class, 'indexView']);
 
 
+Route::get('/task',function(){
+    return view ('task');
+});
+
+
 
 
 
